@@ -8,7 +8,7 @@ return (
 {/* Do not remove the main div */}
 <h1>Parent Component</h1>
 {
-isLoggedIn ? (<p>You are Logged In!</p>):(<LoginForm setIsLoggedIn={setIsLoggedIn}/>)
+isLoggedIn ? (<p>You are logged in!</p>):(<LoginForm setIsLoggedIn={setIsLoggedIn}/>)
 }
 
 </div>
